@@ -6,7 +6,7 @@
     border-radius: 27px;
     background: #ffffff;
     color: gray;
-    box-shadow: 13px 13px 39px #d4d4d4,
+    box-shadow: 13px 13px 39px #adacac,
                 -13px -13px 39px #ffffff;
 }
 #dashboard{
@@ -20,6 +20,7 @@
     box-shadow: inset 8px 8px 15px #e3e3e3,
                 inset -8px -8px 15px #ffffff;
     text-align: end;
+    overflow: scroll;
 }
 #board-wrapper{
     width: 80%;
@@ -45,8 +46,11 @@
     line-height: 1.5;
     border-radius: 10px;
     background: #ffffff;
-    box-shadow:  9px 9px 17px #dedede,
+    box-shadow:  9px 9px 17px #cecccc,
                 -9px -9px 17px #ffffff;
+}
+.board:hover{
+    opacity: 0.6;
 }
 .operation{
     font-size: 30px;
